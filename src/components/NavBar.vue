@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
- var  book="Wings of Fire"
+ var  book="Wings of"
 
   const props = defineProps<{
   name: string
@@ -35,6 +35,12 @@
   sendData:Function
 }>() 
 
+const emit=defineEmits({
+  
+})
+function submit(){
+  emit(book)
+}
 // interface Pro {
 //   name: string
 //   count: number

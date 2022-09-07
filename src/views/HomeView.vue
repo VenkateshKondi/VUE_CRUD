@@ -21,7 +21,7 @@ function deleteItem(i){
  <template>
   <!-- <prep>{{users}}</prep> -->
   <button class="btn btn-info m-2" @click="getAllUsers()">READ</button>
-  <div class="container-fluid" style="height: 100vw" v-if="users!=0">
+  <div class="container-fluid"  v-if="users!=0">
     <div class="row">
       <div class="col-12">
         <table class="table lg-shadow mt-1">
