@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from "@vue/reactivity";
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 import NavBar from "./components/NavBar.vue";
 import UserTable from "./components/UserTable.vue";
 
