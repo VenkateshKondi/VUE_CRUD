@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
- var  book="Geethanjali"
+ var  book="Wings of Fire"
 
   const props = defineProps<{
   name: string
